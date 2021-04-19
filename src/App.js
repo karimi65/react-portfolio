@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Navbar from './components/Navbar.js'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
+import Footer from './components/Footer'
 
 
 import './App.css';
@@ -16,7 +17,7 @@ function App() {
         <Route exact path='/portfolio'>
           <Portfolio />
         </Route>
-
+        <Footer />
       </Router>
 
 
