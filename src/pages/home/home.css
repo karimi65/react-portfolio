@@ -1,0 +1,27 @@
+#about {
+    background-image: url('../../assets/img/bgAbout.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+    
+    footer {
+       position: fixed;
+       bottom: 0;
+       background-color: rgb(88, 194, 176);;
+    }
+    
+    #name {
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, sans-serif;
+        font-size: 18px;
+    }
+    
+    #me {
+        border-radius: 50px;
+        margin-top: 15px;
+        margin-bottom: 80px;
+        width: 300px;
+        height: 200px;
+    }
